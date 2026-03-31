@@ -15,7 +15,7 @@ export MAIN_BIN=RoR
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/RoR
+quick-sharun ./AppDir/bin/RoR /usr/lib/Plugin*.so* /usr/lib/Render*.so* /usr/lib/libMyGUI*.so* /usr/lib/libOgre*.so*
 
 # Additional changes can be done in between here
 
