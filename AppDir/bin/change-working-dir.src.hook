@@ -7,7 +7,7 @@ cat <<EOM > "plugins.cfg"
 # Defines plugins to load
 
 # Define plugin folder
-PluginFolder="$APPDIR"/bin/lib
+PluginFolder=$APPDIR/bin/lib
 
 # Define plugins
 Plugin=Codec_FreeImage
