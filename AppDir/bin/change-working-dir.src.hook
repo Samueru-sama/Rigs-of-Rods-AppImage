@@ -1,22 +1,4 @@
 #!/bin/false
 dir=$HOME/.rigsofrods
 mkdir -p "$dir"
-if [ ! -f "$dir"/plugins.cfg ]; then
-cd "$dir"
-cat <<EOM > "plugins.cfg"
-# Defines plugins to load
-
-# Define plugin folder
-PluginFolder=$APPDIR/lib
-
-# Define plugins
-Plugin=Codec_FreeImage
-# Plugin=RenderSystem_GL
-Plugin=RenderSystem_GL3Plus
-Plugin=Plugin_ParticleFX
-Plugin=Plugin_OctreeSceneManager
-Plugin=Plugin_CgProgramManager
-Plugin=libCaelum.so
-EOM
-fi
 cd "$dir"
