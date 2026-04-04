@@ -11,6 +11,7 @@ export ICON=https://raw.githubusercontent.com/RigsOfRods/rigs-of-rods/refs/heads
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
+export APPDIR="$PWD"/AppDir
 (
 	cd ./AppDir/bin
 	quick-sharun ./* /usr/lib/libXaw.so*
