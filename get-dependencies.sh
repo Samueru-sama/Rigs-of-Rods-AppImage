@@ -27,4 +27,5 @@ rm -f *.zip
 #sed -i "s#PluginFolder=lib#PluginFolder=\"\$APPDIR\"/shared/lib#" plugins.cfg
 #mv -v RoR plugins.cfg resources languages content ./AppDir/bin
 mv -v RoR resources languages content ./AppDir/bin
+cp -r lib ./AppDir/bin
 mv -v lib/* /usr/lib
