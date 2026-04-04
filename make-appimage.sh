@@ -14,7 +14,7 @@ export DEPLOY_OPENGL=1
 export APPDIR="$PWD"/AppDir
 (
 	cd ./AppDir/bin
-	quick-sharun ./* /usr/lib/libXaw.so* /usr/lib/libXaw7.so*
+	quick-sharun ./* /usr/lib/libXaw*.so*
 )
 echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/bin' >> ./AppDir/.env
 
