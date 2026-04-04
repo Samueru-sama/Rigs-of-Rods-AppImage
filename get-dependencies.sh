@@ -26,4 +26,5 @@ cd ./AppDir/bin
 itchio-downloader --url "https://rigs-of-rods.itch.io/rigs-of-rods" --platform linux --downloadDirectory .
 bsdtar -xvf ./game-2066563.zip
 patchelf --set-rpath '$ORIGIN/lib' ./RoR
+patchelf --set-rpath '$ORIGIN' ./lib/*.so*
 rm -f ./*.zip ./*.RunRoR
